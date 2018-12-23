@@ -1,5 +1,4 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 import java.awt.BorderLayout;
@@ -7,7 +6,6 @@ import javax.swing.SwingConstants;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.border.Border;
-
 import java.awt.Color;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -339,7 +337,6 @@ public class Calculator {
 				}
 			}
 		});
-
 		frame.getContentPane().add(buttonDelete);
 
 		JButton buttonPercentage = new JButton("%");
@@ -369,7 +366,6 @@ public class Calculator {
 				result = Math.sqrt(firstNumber);
 				answer = String.format("%.2f", result);
 				txtCalculator.setText(answer);
-
 			}
 		});
 		buttonSquareRoot.setForeground(Color.WHITE);
